@@ -19,12 +19,11 @@ header {
   height: 60px;
   position: fixed;
   top: 0;
-  background-color: #00000082;
+  background-color: #0e1012;
   z-index: 1000;
 }
 
 header .logo img {
-  /* position: absolute; */
   width: 100px;
   height: 100px;
   top: -16px;
@@ -53,10 +52,11 @@ header nav .logo {
   list-style-type: none;
   padding: 0;
   margin-top: -20px;
+  height: 100px;
 }
 
 .menu-list li {
-  margin: 0 20px;
+  margin: 9px 21px;
   cursor: pointer;
   position: relative;
   z-index: 1000;
@@ -74,7 +74,6 @@ header nav .logo {
 
 .menu-list button {
   width: 100px;
-  /* position: absolute; */
   right: 10px;
   display: inline-block;
   top: 20px;
@@ -127,7 +126,7 @@ li {
   position: absolute;
   left: 0;
   top: 100%;
-  background-color: #00000082;
+  background-color: #0e1012;
   width: 200px;
   padding: 10px;
   z-index: 1000;
@@ -138,13 +137,20 @@ li {
 }
 
 .submenu {
-  padding: 20px;
-  font-size: 10px;
-  font-weight: 500;
-  text-align: center;
-  /* display: none; */
-  /* margin-left: -62px; */
-  margin-top: 15px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #00000082;
+  width: 200px;
+  padding: 10px;
+  z-index: 1000;
+  transition-delay: 0.3s; 
+}
+
+.container-header:hover .submenu,
+.submenu:hover {
+  display: block;
+  margin-top: 1px;
 }
 
 .submenu h2 {
@@ -153,8 +159,9 @@ li {
 }
 
 .submenu h2:nth-child(1) {
-  color: rgb(201, 68, 68);
+  color: rgb(188, 179, 179);
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 .submenu h2 strong {
@@ -162,12 +169,16 @@ li {
 }
 
 .submenu1 {
-  
-margin-left: -53px;
+  margin-left: -53px;
+  display: none;
 }
 
+.submenu2 {
+  margin-left: -53px;
+  display: none;
+}
 
-.submenu .article-sub1 section{
+.submenu .article-sub1 section {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -175,7 +186,7 @@ margin-left: -53px;
   flex-direction: column;
 }
 
-.submenu .article-sub1 section img{
+.submenu .article-sub1 section img {
   width: 50px;
   height: 100%;
   object-fit: cover;
@@ -191,15 +202,46 @@ margin-left: -53px;
   color: #fff;
   margin-top: 10px;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 
+.submenu .article-sub1 section button:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
+}
 
-/* 
+.submenu2 {
+  margin-left: -53px;
+}
+
+.submenu .article-sub2 section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.submenu .article-sub2 section img {
+  width: 50px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.submenu .article-sub2 section button {
+  width: 100%;
+  background: #1186e7;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
 @media (max-width: 860px) {
-  #seta {
-      display: none;
+ 
+  .submenu .article-sub1 section img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
   }
-  .menu-list li a {
-      display: none;
-  }
-} */
+}
