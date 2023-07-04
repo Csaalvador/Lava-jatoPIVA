@@ -12,6 +12,7 @@ html::-webkit-scrollbar-track {
 body {
   width: 100vw;
   height: 100vh;
+  background: #EAEBED;
 }
 
 header {
@@ -153,6 +154,10 @@ li {
   margin-top: 1px;
 }
 
+.container-header button {
+  margin: 1px;
+}
+
 .submenu h2 {
   white-space: nowrap;
   font-size: 15px;
@@ -236,6 +241,9 @@ li {
   cursor: pointer;
   margin-bottom: 0px;
 }
+
+
+
 
 @media (max-width: 860px) {
  

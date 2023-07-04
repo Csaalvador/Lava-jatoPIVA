@@ -8,223 +8,144 @@
         <meta name="keywords"
             content="lavagem, lavagem de carro, lavagem de carro em, lavagem de carro em São Paulo, lavar carro">
         <!-- font awesome -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <!-- font google -->
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined:opsz,wght,FILL,GRAD@48,400,0,1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined:opsz,wght,FILL,GRAD@48,400,0,1">
+       
         <!-- css -->
+        <!-- HEADER CSS LINK-->
         <link rel="stylesheet" href="./assets/css/header.css">
+
+        <!-- HOME CSS LINK-->
+        <link rel="stylesheet" href="./assets/css/home.css">
         <title>Lava Jato do PIVA</title>
-    
+
     </head>
     <body>
         <div class="container-main">
             <!-- Início do cabeçalho -->
-            <header>
-                <nav>
 
+            <header>
+
+                <nav>
+                    <!-- Aqui inicia o primeiro item da lista, o item LOGO-->
                     <ul class="menu-list">
                         <li>
+
                             <div class="logo">
                                 <img
                                     src="./assets/images/logo/Logotipo para moto clube com fogo e caveira.png"
                                     alt="Logo"
                                     title="Logo">
                             </div><!-- /.logo -->
+
                         </li>
 
+                        <!-- Aqui inicia o segundo item, de apresentação-->
+                        <li>
+
+                            <div class="quemsomos">
+                                <a href="#">
+                                    Quem somos
+                                </a>
+                            </div>
+
+                        </li><!-- /.quemsomos -->
+
+                        <!-- Aqui inicia o terceiro item, de serviços-->
+                        <li>
+
+                            <div class="destaque">
+                                <a href="#">
+                                    Destaques
+                                </a>
+                            </div>
+
+                        </li><!-- /.servicos -->
+
+                        <!-- Aqui inicia o quarto item, de preços que apresenta todos os veiculos-->
                         <li class="container-header">
 
                             <a href="#">
-                                Serviços
+                                Preços
                             </a>
 
+                            <!-- Aqui temos uma simples seta que irá indicar que o item possui subitens-->
                             <img
                                 class="arrow"
                                 id="seta"
                                 src="./assets/images/header/svg-seta.svg"
-                                alt="seta">
-
-                            <div class="submenu1 submenu">
-
-                                <article class="article-sub1 article">
-
-                                    <h2>Logistica</h2>
-                                    <section class="a1">
-                                    <img src="/assets/images/header/cle-soap-bar-svgrepo-com (1).svg" 
-                                    alt=""
-                                    >
-                                    <h2><strong>Lavagem</strong></h2>
-                                    <p>Lavagem de qualidade</p>
-                                    <button>Saiba mais</button>
-                                </section>
-
-                                <section class="a2">
-                                    <img src="/assets/images/header/cle-soap-bar-svgrepo-com (1).svg" 
-                                    alt=""
-                                    >
-                                    <h2><strong>Polimento</strong></h2>
-                                    <p>Polimento de qualidade</p>
-                                    <button>Saiba mais</button>
-
-                                </section>
-
-                                <section class="a3">
-                                    <img src="/assets/images/header/cle-soap-bar-svgrepo-com (1).svg" 
-                                    alt=""
-                                    >
-                                    <h2><strong>Estética</strong></h2>
-                                    <p>Estética de qualidade</p>
-                                    <button>Saiba mais</button>
-                                </section>
-                                </article>
-
-                                
-
-                            </div>
-
+                                alt="seta"
+                                >
                         </li>
+                        <!-- /.container-header -->
 
-                        <li class="container-header">
-
-                            <a href="#">Preços</a>
-                            <img
-                                class="arrow"
-                                id="seta"
-                                src="./assets/images/header/svg-seta.svg"
-                                alt="seta">
-
-                                <div class="submenu2 submenu">
-                                        
-                                        <article class="article-sub2 article">
-    
-                                            <h2>Carro</h2>
-                                            <section class="a1">
-                                            <img src="/assets/images/header/carro-limpo (1).png" 
-                                            alt=""
-                                            >
-                                            <h2><strong>Carro</strong></h2>
-                                            <p>Lavagem de qualidade</p>
-                                            <button>Saiba mais</button>
-                                        </section>
-            
-                                        <section class="a2">
-                                            <img src="/assets/images/header/cle-soap-bar-svgrepo-com (1).svg" 
-                                            alt=""
-                                            >
-                                            <h2><strong>Caminhão</strong></h2>
-                                            <p>Polimento de qualidade</p>
-                                            <button>Saiba mais</button>
-            
-                                        </section>
-            
-                                        <section class="a3">
-                                            <img src="/assets/images/header/cle-soap-bar-svgrepo-com (1).svg" 
-                                            alt=""
-                                            >
-                                            <h2><strong>Estética</strong></h2>
-                                            <p>Estética de qualidade</p>
-                                            <button>Saiba mais</button>
-                                        </section>
-                                        </article>
-                                </div> 
-
-                            <!-- <div class="submenu">
-                                <ul>
-                                    <li><a href="#">Preço 1</a></li>
-                                    <li><a href="#">Preço 2</a></li>
-                                    <li><a href="#">Preço 3</a></li>
-                                </ul>
-                            </div> -->
-
-                        </li>
-
+                        <!-- Aqui inicia o quinto item, de preços que apresenta todos os horários de funcionamento-->
                         <li class="container-header">
 
                             <a href="#">
                                 Funcionamento
                             </a>
 
+                            <!-- Aqui temos uma simples seta que irá indicar que o item possui subitens-->
                             <img
                                 class="arrow"
                                 id="seta"
                                 src="./assets/images/header/svg-seta.svg"
                                 alt="seta">
-
-                            <!-- <div class="submenu">
-                                <ul>
-                                    <li><a href="#">Funcionamento 1</a></li>
-                                    <li><a href="#">Funcionamento 2</a></li>
-                                    <li><a href="#">Funcionamento 3</a></li>
-                                </ul>
-                            </div> -->
-
                         </li>
+                        <!-- /.container-header -->
 
+                        <!-- Aqui inicia o sexto item, de preços que apresenta todos os dias para click e agendamento-->
                         <li class="container-header">
 
                             <a href="#">
                                 Agendamento
                             </a>
+
+                            <!-- Aqui temos uma simples seta que irá indicar que o item possui subitens-->
                             <img
                                 class="arrow"
                                 id="seta"
                                 src="./assets/images/header/svg-seta.svg"
                                 alt="seta">
-
-                            <!-- <div class="submenu">
-                                <ul>
-                                    <li><a href="#">Agendamento 1</a></li>
-                                    <li><a href="#">Agendamento 2</a></li>
-                                    <li><a href="#">Agendamento 3</a></li>
-                                </ul>
-                            </div> -->
-
+                            >
                         </li>
+                        <!-- /.container-header -->
 
-                        <li class="container-header">
+                        <!-- Aqui inicia o sétimo item, de contato-->
+                        <li>
 
-                            <a href="#" class="setta">
+                            <a href="#">
                                 Contato
                             </a>
 
-                            <img
-                                class="arrow"
-                                id="seta"
-                                src="./assets/images/header/svg-seta.svg"
-                                alt="seta">
-
-                            <!-- <div class="submenu">
-                                <ul>
-                                    <li><a href="#">Contato 1</a></li>
-                                    <li><a href="#">Contato 2</a></li>
-                                    <li><a href="#">Contato 3</a></li>
-                                </ul>
-                            </div> -->
                         </li>
+                        <!-- /.container-header -->
+
+                        <!-- Aqui inicia o oitavo item, de login-->
                         <li class="container-header">
-                            <button
-                                id="btn"
-                                class="btn"
-                                type="submit">
+
+                            <button id="btn" class="btn" type="submit">
                                 Entrar
                             </button>
                         </li>
+                        <!-- /.container-header -->
                     </ul>
                     <!-- /.menu-list -->
+
                     <!-- icon de menu:: -->
                     <div class="icon-menu">
                         <i class="fas fa-bars"></i>
                     </div>
+                    <!-- /.icon-menu -->
+
                 </nav>
+                <!-- /.nav -->
             </header>
             <!-- Fim do cabeçalho -->
-        </div><!-- /.container-main -->
-        <section class="home">
-            <div class="background"></div>
-        </section>
+        </div>
+        <!-- /.container-main -->
     </body>
 </html>
