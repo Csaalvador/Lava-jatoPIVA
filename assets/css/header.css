@@ -1,16 +1,22 @@
+/* POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* POPPINS MEDIUM */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
 html::-webkit-scrollbar-track {
   background: transparent;
 }
 
-body {
-  background: #EAEBED;
+body, html {
+  background: #FFFCFC;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 header {
