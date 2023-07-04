@@ -252,4 +252,10 @@ li {
     height: auto;
     margin-right: 10px;
   }
+
+  .submenu .article-sub2 section img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
 }

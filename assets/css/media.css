@@ -1,0 +1,17 @@
+.container-list {
+    display: flex;
+}
+
+@media (max-width: 1000px) {
+    .container-list{
+        display: none;
+    }
+
+    .container-home .text h1 {
+        font-size: 60px;
+    }
+
+    .container-home img{
+        display: none;
+    }
+}
