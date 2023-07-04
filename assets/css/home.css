@@ -1,0 +1,53 @@
+
+main {
+    background: url(../images/image-home/car.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: right;
+    background-position-y: 85px;
+}
+
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;    
+}
+
+.home .text-home {
+    width: 700px;
+    margin-left: 98px;
+}
+
+.home .text-home h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.home .text-home span {
+    font-size: 15px;
+    position: absolute;
+    top: 270px;
+    left: 500px;
+}
+
+.home .text-home h2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.home button{
+    margin-left: 98px;
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+}
+
