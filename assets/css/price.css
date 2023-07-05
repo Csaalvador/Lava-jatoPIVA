@@ -5,13 +5,13 @@
 .container-price {
     width: 70%;
     height: 100%;
-    box-shadow: 0px 0px 10px #00000029; 
+    box-shadow: 0px 0px 10px #00000029;
     padding: 100px;
     display: flex;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 136px;
     margin-left: 200px;
-    margin-bottom: 10px;
+    /* margin-bottom: -136px; */
     background-color: #fff;
     border-radius: 25px;
 }
