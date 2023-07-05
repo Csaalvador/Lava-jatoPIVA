@@ -11,12 +11,15 @@
 
 html::-webkit-scrollbar-track {
   background: transparent;
+  scroll-padding-top: 40px;
 }
+
 
 body, html {
   background: #FFFCFC;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  scroll-padding-top: 85px;
 }
 
 header {
