@@ -35,11 +35,12 @@
     cursor: pointer;
     background: #0F37C7;
     border-radius: 25px;
-    width: 95px;
-    height: 32px;
+    width: 100px;
+    height: 40px;
     border: none;
     color: #fff;
     margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container-home img {

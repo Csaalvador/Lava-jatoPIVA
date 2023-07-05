@@ -43,6 +43,7 @@ header nav .logo {
   text-transform: uppercase;
   letter-spacing: 2px;
   z-index: 1000;
+  margin-top: 20px;
 }
 
 #seta {
@@ -91,6 +92,7 @@ header nav .logo {
   color: #fff;
   margin-top: -5px;
   cursor: pointer;
+  font-family: 'Poppins', sans-serif;
 }
 
 .menu-list button:hover {

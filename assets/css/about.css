@@ -18,16 +18,32 @@
     background-color: #161616;
 }
 .text-img {
-    width: 100%;
+    width: 92.5%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 7.5%;
+   
 }
 .title-about {
     width: 45%;
     display: flex;
     align-items: center;
 }
+
+.text-about {
+    width: 35%;
+}
+
+.text-about p {
+    line-height: 25px;
+}
+
 .img-about {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3C8FDB;
 }
