@@ -5,18 +5,22 @@
 .container-price {
     width: 70%;
     height: 100%;
-display: flex;
-align-items: center;
-margin-top: 250px;
-margin-left: 200px;
-background-color: #dedede;
+    box-shadow: 0px 0px 10px #00000029; 
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 25px;
 }
 
 .container-price p {
     font-size: 20px;
     font-weight: 600;
     color: #000;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .container-price span {
@@ -28,15 +32,15 @@ background-color: #dedede;
 
 .container-price img:nth-child(1) {
     background: var(--background);
+    margin-right: 20px;
     padding: 50px;
+    height: 100%;
 }
 
 .barra {
     width: 1px;
     height: 100px;
     background-color: #000;
-    margin-left: 100px;
-    position: relative;
     top: 90px;
     display: flex;
 }
@@ -45,12 +49,14 @@ background-color: #dedede;
     width: 1px;
     height: 100px;
     background-color: #000;
-    margin-left: 100px;
-    position: relative;
-    top: -100px;
-    margin-left: -35px;  
+    display: flex;
 }
 
 .logo-black {
-   margin-left: -30px;
+    margin-left: -30px;
+}
+
+.barras {
+    display: flex;
+    flex-direction: column;
 }
