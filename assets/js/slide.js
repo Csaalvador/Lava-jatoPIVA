@@ -10,8 +10,8 @@ function run() {
         idx = 0
     }
 
-    imgs.style.transform = `translateX(${-idx * 500}px)`
+    imgs.style.transform = `translateX(${-idx * 750}px)`
 
 }
 
-setInterval(run, 2000)
+setInterval(run, 5000)
