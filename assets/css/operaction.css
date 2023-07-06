@@ -7,8 +7,8 @@
 
 .loc {
     display: flex;
-    width: 700px;
-    justify-content: space-between;
+    width: 800px;
+    justify-content: space-around;
     margin-top: -63px;
 }
 

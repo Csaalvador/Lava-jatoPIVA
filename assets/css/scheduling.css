@@ -1,0 +1,41 @@
+.scheduling {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.h1-scheduling {
+    text-align: left;
+    font-size: 40px;
+}
+.scheduling-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.scheduling-img {
+    width: 42%;
+}
+.scheduling img {
+    width: 450px;
+}
+.scheduling-text p {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.scheduling-text button {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #0F37C7;
+    border-style: none;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
