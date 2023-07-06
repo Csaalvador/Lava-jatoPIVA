@@ -57,6 +57,7 @@
 }
 
 .image-price{
+    width: 40%;
     align-items: center;
     justify-content: center;
 }
