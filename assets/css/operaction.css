@@ -1,7 +1,8 @@
 .container-operaction {
-    width: 100%;
+    width: 85%;
+    margin: auto;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .loc {
@@ -18,6 +19,6 @@
 .title-operactions {
     display: flex;
     justify-content: center;
+    font-size: 40px;
     margin-top: 125px;
 }
-
