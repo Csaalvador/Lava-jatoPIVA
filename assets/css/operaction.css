@@ -1,0 +1,16 @@
+.container-operaction {
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.loc {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.loc img:nth-child(2) {
+    margin-top: 200px;
+}
+
