@@ -18,17 +18,16 @@
 }
 
 .container-price {
-    width: 90%;
+    width: 85%;
     margin: auto;
     box-shadow: 0px 0px 10px #00000029;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 30px;
     margin-top: 50px;
     background-color: #fff;
     border-radius: 25px;
-    flex-direction: row;
 }
 
 .container-price span {
@@ -41,7 +40,6 @@
     background: var(--background);
     padding: 80px;
     border-radius: 10px;    
-    margin-left: 50px;
 }
 
 .barras {
@@ -59,7 +57,6 @@
 }
 
 .image-price{
-    width: 40%;
     align-items: center;
     justify-content: center;
 }
@@ -77,6 +74,20 @@
     align-items: center;
 }
 
+.texts {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    padding-right: 30px;
+}
+
+.texts p {
+    text-align: justify;
+    font-size: 20px;
+    color: #000;
+}
+
 .details p {
     text-align: left;
     font-size: 20px;
@@ -87,4 +98,3 @@
 .pickup, .tractor{
     flex-direction: row-reverse;
 }
-
