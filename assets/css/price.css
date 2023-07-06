@@ -18,7 +18,7 @@
 }
 
 .container-price {
-    width: 75%;
+    width: 90%;
     margin: auto;
     box-shadow: 0px 0px 10px #00000029;
     display: flex;
@@ -28,6 +28,7 @@
     margin-top: 50px;
     background-color: #fff;
     border-radius: 25px;
+    flex-direction: row;
 }
 
 .container-price span {
@@ -39,7 +40,8 @@
 .container-price img:nth-child(1) {
     background: var(--background);
     padding: 80px;
-    border-radius: 10px;
+    border-radius: 10px;    
+    margin-left: 50px;
 }
 
 .barras {
@@ -81,3 +83,8 @@
     font-weight: 600;
     color: #000;
 }
+
+.pickup, .tractor{
+    flex-direction: row-reverse;
+}
+
