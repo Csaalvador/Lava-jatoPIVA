@@ -64,128 +64,100 @@
             <!-- Início do cabeçalho -->
 
             <header>
-
                 <nav>
-                    <!-- Aqui inicia o primeiro item da lista, o item LOGO-->
                     <ul class="menu-list">
                         <li>
-
                             <div class="logo">
-                                <img
-                                    src="./assets/images/logo/Piva-lava-jato.png"
-                                    alt="Logo"
-                                    title="home">
-                            </div><!-- /.logo -->
-
+                                <a href="#home">
+                                    <img src="./assets/images/logo/Piva-lava-jato.png" alt="Logo" title="home">
+                                </a>
+                            </div>
                         </li>
-
-                        <!-- Aqui inicia o segundo item, de apresentação-->
                         <div class="container-list">
                             <li>
-
                                 <div class="quemsomos">
                                     <a href="#about">
                                         Quem somos
                                     </a>
                                 </div>
-
-                            </li><!-- /.quemsomos -->
-
-                            <!-- Aqui inicia o terceiro item, de serviços-->
+                            </li>
                             <li>
-
                                 <div class="destaque">
                                     <a href="#destaque">
                                         Destaques
                                     </a>
                                 </div>
-
-                            </li><!-- /.servicos -->
-
-                            <!-- Aqui inicia o quarto item, de preços que apresenta todos os veiculos-->
+                            </li>
                             <li class="container-header">
-
                                 <a href="#">
                                     Preços
                                 </a>
+                                <img class="arrow" id="seta" src="./assets/images/header/svg-seta.svg" alt="seta">
+                                <div class="submenu">
+                                    <!-- Subitens do menu Preços -->
+                                    <ul>
+                                        <li> Carro<img src="./assets/images/price/car.svg" alt=""></li>
+                                        <li> Caminhão<img src="./assets/images/price/truck.svg" alt=""></li>
+                                        <li> Trator<img src="./assets/images/price/tractor.svg" alt=""></li>
+                                        <li> Ônibus<img src="./assets/images/price/bus.svg" alt=""></li>
+                                        <li> Camionete<img src="./assets/images/price/pickup (1).svg" alt=""></li>
+                                        <li> Outro<img src="./assets/images/price/outhers.svg" alt=""></li>
 
-                                <!-- Aqui temos uma simples seta que irá indicar que o item possui subitens-->
-                                <img
-                                    class="arrow"
-                                    id="seta"
-                                    src="./assets/images/header/svg-seta.svg"
-                                    alt="seta">
+                                    </ul>
+                                </div>
                             </li>
-                            <!-- /.container-header -->
-
-                            <!-- Aqui inicia o quinto item, de preços que apresenta todos os horários de funcionamento-->
                             <li class="container-header">
-
                                 <a href="#">
                                     Funcionamento
                                 </a>
-
-                                <!-- Aqui temos uma simples seta que irá indicar que o item possui subitens-->
-                                <img
-                                    class="arrow"
-                                    id="seta"
-                                    src="./assets/images/header/svg-seta.svg"
-                                    alt="seta">
+                                <img class="arrow" id="seta" src="./assets/images/header/svg-seta.svg" alt="seta">
+                                <div class="submenu">
+                                    <!-- Subitens do menu Funcionamento -->
+                                    <ul>
+                                        <li><a href="#">Subitem 1</a></li>
+                                        <li><a href="#">Subitem 2</a></li>
+                                        <li><a href="#">Subitem 3</a></li>
+                                 
+                                    </ul>
+                                </div>
                             </li>
-                            <!-- /.container-header -->
-
-                            <!-- Aqui inicia o sexto item, de preços que apresenta todos os dias para click e agendamento-->
                             <li class="container-header">
-
                                 <a href="#">
                                     Agendamento
                                 </a>
-
-                                <!-- Aqui temos uma simples seta que irá indicar que o item possui subitens-->
-                                <img
-                                    class="arrow"
-                                    id="seta"
-                                    src="./assets/images/header/svg-seta.svg"
-                                    alt="seta">
-                                >
+                                <img class="arrow" id="seta" src="./assets/images/header/svg-seta.svg" alt="seta">
+                                <div class="submenu">
+                                    <!-- Subitens do menu Agendamento -->
+                                    <ul>
+                                        <li><a href="#">Segunda</a></li>
+                                        <li><a href="#">Terça</a></li>
+                                        <li><a href="#">Quarta</a></li>
+                                        <li><a href="#">Quinta</a></li>
+                                        <li><a href="#">Sexta</a></li>
+                                    </ul>
+                                </div>
                             </li>
-                            <!-- /.container-header -->
-
-                            <!-- Aqui inicia o sétimo item, de contato-->
                             <li>
-
                                 <a href="#contato">
                                     Contato
                                 </a>
-
                             </li>
-                            <!-- /.container-header -->
-                        </div><!-- container list-->
-
-                        <!-- Aqui inicia o oitavo item, de login-->
+                        </div>
                         <li class="container-header">
-
                             <button id="btn" class="btn" type="submit">
                                 Entrar
                             </button>
                         </li>
-                        <!-- /.container-header -->
                     </ul>
-                    <!-- /.menu-list -->
-
-                    <!-- icon de menu:: -->
                     <div class="icon-menu">
                         <i class="fas fa-bars"></i>
                     </div>
-                    <!-- /.icon-menu -->
-
                 </nav>
-                <!-- /.nav -->
             </header>
-            <!-- Fim do cabeçalho -->
+            
 
             <!-- Início do conteúdo principal -->
-            <div class="container-home">
+            <div class="container-home" id="home">
 
                 <div class="text">
 
