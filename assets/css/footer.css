@@ -51,3 +51,22 @@ footer section {
 footer:nth-child(1) {
     background-color: #0A0A0A;
 }
+
+@media (max-width: 1000px) {
+    footer {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    footer section {
+        padding: 0 20px;
+    }
+
+    footer .lava-jato {
+        margin-top: 20px;
+    }
+
+    footer .equipe {
+        margin-top: 20px;
+    }
+}

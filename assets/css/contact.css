@@ -53,3 +53,21 @@ legend{
     text-align: center;
     margin-top: 10px;
 }
+
+@media(max-width:1000px){
+    .container-contact {
+        flex-direction: column;
+    }
+
+    .cotainer-piva {
+        margin-bottom: 20px;
+    }
+
+    .contact-piva {
+        margin-left: 0px;
+    }
+
+    .contact-piva hr {
+        width: 100%;
+    }
+}

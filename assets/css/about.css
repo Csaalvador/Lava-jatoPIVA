@@ -47,3 +47,33 @@
     align-items: center;
     background-color: #3C8FDB;
 }
+
+@media(max-width: 1000px) {
+    .content {
+        flex-direction: column;
+    }
+    .text-img {
+        flex-direction: column;
+    }
+    .title-about {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .text-about {
+        width: 100%;
+    }
+
+    .text-about p:nth-child(1) {
+        display: none;
+    }
+    .img-about {
+        width: 100%;
+    }
+    .hr-about {
+        width: 100%;
+    }
+    .hr-home-about {
+        width: 100%;
+    }
+}
+

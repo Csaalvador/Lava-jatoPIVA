@@ -40,3 +40,24 @@
     margin-top: 15px;
     text-transform: uppercase;
 }
+
+@media(max-width: 1000px) {
+    .scheduling {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .scheduling-text {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .scheduling-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .scheduling-img img {
+        width: 100%;
+    }
+}

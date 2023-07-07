@@ -120,3 +120,51 @@
 .pickup, .tractor, .container-price-outhers{
     flex-direction: row-reverse;
 }
+
+@media (max-width:720px){
+    .container-price {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-price img:nth-child(1), 
+    .container-price-outhers img:nth-child(1) {
+        padding: 0px;
+        margin-top: 30px;
+    }
+
+    .container-price-outhers {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-price, .image-outhers {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .details, .texts {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .details-text, .texts {
+        flex-direction: column;
+    }
+
+    .details-text {
+        margin-top: 30px;
+    }
+
+    .details-text p {
+        margin-top: 10px;
+    }
+
+    .details-text span {
+        margin-top: 10px;
+    }
+
+    .barras {
+        display: none;
+    }
+}
