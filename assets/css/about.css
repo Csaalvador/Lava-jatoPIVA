@@ -42,7 +42,6 @@
 }
 
 .img-about {
-    width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +67,7 @@
         display: none;
     }
     .img-about {
-        width: 100%;
+        width: 78%;
     }
     .hr-about {
         width: 100%;
