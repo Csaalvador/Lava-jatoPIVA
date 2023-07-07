@@ -74,6 +74,7 @@
 
         .container-home .text h1 {
             font-size: 40px;
+            place-self: center;
         }
 
         .container-home .text p {
