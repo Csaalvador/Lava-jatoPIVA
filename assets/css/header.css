@@ -285,49 +285,40 @@ background: #1186e7;
   transition: ease-in-out 0.2s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 860px) {
- 
-  .submenu .article-sub1 section img {
-    width: 30px;
-    height: auto;
-    margin-right: 10px;
-  }
-
-  .submenu .article-sub2 section img {
-    width: 30px;
-    height: auto;
-    margin-right: 10px;
-  }
+.container-list {
+  display: flex;
 }
+
+@media(max-width: 1000px)
+{
+ .container-list {
+  display: none;
+}
+
+.container-header button {
+  margin-right: 100px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
