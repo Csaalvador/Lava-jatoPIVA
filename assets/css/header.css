@@ -157,6 +157,13 @@ li {
   transition-delay: 0.3s; 
 }
 
+.submenu ul li:hover {
+  background-color: #00000082;
+  transition-delay: 0.1s;
+  border-radius: 5px;
+}
+
+
 .container-header:hover .submenu,
 .submenu:hover {
   display: block;
@@ -294,10 +301,12 @@ background: #1186e7;
   right: 1px;
   top: 50px;
   background: #000000e0;
-  width: 100%;
+  width: 38%;
   display: flex;
   justify-content: center;
-  transform: translateX(100%);
+  transform: translateX(1000%);
+  transition: .8s ease-in-out;
+  border-radius: 0 0 25px 25px;
 }
 
 .container-menu-lateral ul {
@@ -338,6 +347,23 @@ background: #1186e7;
   cursor: pointer;
   margin-bottom: 30px;
   text-align: center;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
 }
 
 .container-menu-lateral.active {
@@ -358,6 +384,10 @@ background: #1186e7;
 
 .icon-menu i {
   display: block;
+}
+
+.icon-menu:hover {
+  animation: rotate 2s infinite;
 }
 
 .container-header button {
