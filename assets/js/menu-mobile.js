@@ -9,6 +9,3 @@ document.querySelector('.icon-menu').onclick = () => {
     }
   }
 }
-
-
-

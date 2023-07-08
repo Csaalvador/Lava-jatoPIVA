@@ -35,6 +35,12 @@ footer  .equipe .footer-all ul{
     align-items: center;
 }
 
+footer .footer-visual {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
 footer .equipe .footer-all a{
     text-decoration: none;
 }
