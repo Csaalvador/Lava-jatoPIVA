@@ -413,6 +413,16 @@ li {
     .container-header button {
         display: none;
     }
+
+    .about img{
+        margin-bottom: -100px;
+        display: none;
+    }
+
+
+    .carrossel, h2.h2{
+        display: none;
+    }
 }
 
 
@@ -654,6 +664,7 @@ button {
 @media (max-width: 720px) {
     .carrossel {
         width: 100%;
+        display: none;
     }
 
     .container {
@@ -1176,7 +1187,7 @@ footer:nth-child(1) {
 
 
 
-/***********************RESPONSIVE*****************************/
+/***********************ajustes*****************************/
 
 @media (max-width: 480px) {
     .container {
@@ -1212,6 +1223,17 @@ footer:nth-child(1) {
         height: 40px;
         font-size: 15px;
     }
+
+    .container-price {
+        width: 100%;
+    }
+
+    .container-price .price {
+        width: 100%;
+    }
+    
+
+
 
     .scheduling {
         flex-direction: column;
