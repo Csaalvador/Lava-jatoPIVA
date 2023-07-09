@@ -145,6 +145,10 @@ li {
 .container-header:hover .submenu {
     display: block;
 }
+    html {
+        overflow-x: hidden;
+    }
+
 
 .submenu {
     position: absolute;
@@ -523,6 +527,7 @@ button {
         height: 40px;
         font-size: 15px;
     }
+
 }
 
 @media(max-width:600px){
