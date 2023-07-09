@@ -153,6 +153,7 @@ li {
     background-color: #00000082;
     transition-delay: 0.1s;
     border-radius: 5px;
+    padding-top: 3px;
 }
 
 
@@ -1094,6 +1095,7 @@ footer .equipe ul {
 footer .lava-jato ul li,
 footer .equipe ul li {
     list-style: none;
+    letter-spacing: 1px;
 }
 
 footer .lava-jato h2 {
