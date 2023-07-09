@@ -435,10 +435,10 @@ li {
 /* ------------------- HOME ------------------- */
 
 .container-home {
-    width: 85%;
-    margin: auto;
+    width: 110%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 0 0 0 20px;
     align-items: center;
     margin-top: -50px;
 }
