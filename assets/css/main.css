@@ -397,6 +397,13 @@ li {
         display: none;
     }
 }
+ @media(max-width: 480px){
+  html {
+    overflow-x: hidden;
+    }
+ }
+
+
 
 /* ------------------- HOME ------------------- */
 
