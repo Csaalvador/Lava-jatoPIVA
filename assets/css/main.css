@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html::-webkit-scrollbar-track {
@@ -524,6 +524,12 @@ button {
         font-size: 15px;
     }
 }
+
+@media(max-width:600px){
+    html {
+        zoom: 0.8;
+    }
+} 
 
 /***********************ABOUT*****************************/
 
