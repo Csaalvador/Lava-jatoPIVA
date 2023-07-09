@@ -1,7 +1,5 @@
 /* POPPINS */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-/* POPPINS MEDIUM */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -112,7 +110,7 @@ header nav .logo {
     height: 30px;
     position: absolute;
     top: 20px;
-    right: 30%;
+    right: 10%;
     color: #fff;
     z-index: 1000;
 }
@@ -237,7 +235,7 @@ li {
 }
 
 .submenu .article-sub2 section img {
-    width: 50px;
+    width: 50%;
     height: 100%;
     object-fit: cover;
 }
@@ -612,7 +610,7 @@ button {
 
 .carrossel {
     box-shadow: 2px 2px 4px black;
-    width: 600px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -624,14 +622,14 @@ button {
 
 .container {
     display: flex;
-    width: 720px;
+    width: 100%;
     flex-direction: row;
     align-items: center;
     transition: transform 0.5s ease-in-out;
 }
 
 .container img {
-    width: 750px;
+    width: 100%;
     height: 400px;
     object-fit: cover;
 }
@@ -1163,3 +1161,8 @@ footer:nth-child(1) {
         margin-top: 20px;
     }
 }
+
+
+
+/***********************RESPONSIVE*****************************/
+
