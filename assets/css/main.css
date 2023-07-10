@@ -825,6 +825,7 @@ button {
     .container-price-outhers img:nth-child(1) {
         padding: 0px;
         margin-top: 30px;
+        width: 217px;
     }
 
     .container-price-outhers {
