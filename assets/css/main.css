@@ -154,7 +154,6 @@ li {
     padding-top: 3px;
 }
 
-
 .container-header:hover .submenu,
 .submenu:hover {
     display: block;
@@ -444,7 +443,6 @@ li {
     margin-top: 5px;
 }
 
-
 .container-home .text h1 span {
     font-size: 15px;
     margin-left: -5px;
@@ -472,9 +470,13 @@ button {
 }
 
 @media(max-width:1000px) {
-    .container-home h1 {
-        margin-top: 100px;
-        /* white-space: nowrap; */
+
+    .container-home .text h1 {
+        font-size: 45px;
+    }
+
+    .container-home .text p {
+        font-size: 18px;
     }
 }
 
@@ -482,12 +484,11 @@ button {
 
     .container-home {
         flex-direction: column;
-        margin-top: 0px;
     }
 
     .container-home .text {
-        width: 100%;
-        margin-top: 50px;
+        width: 80%;
+        margin-top: 150px;
     }
 
     .container-home .text h1 {
@@ -500,9 +501,8 @@ button {
     }
 
     .container-home img {
-        width: 100%;
-        height: 100%;
         margin-top: 0px;
+        width: 100%;
     }
 
     .container-home .text button {
@@ -570,22 +570,23 @@ button {
 }
 
 @media(max-width: 1000px) {
-    .content {
-        flex-direction: column;
-    }
 
     .text-img {
+        width: 85%;
+        margin: auto;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .title-about {
         width: 100%;
-        margin-bottom: 20px;
         place-content: center;
     }
 
     .text-about {
-        width: 100%;
+        width: 80%;
+        text-align: center;
     }
 
     .text-about p:nth-child(1) {
@@ -593,12 +594,12 @@ button {
     }
 
     .img-about {
-        width: 78%;
+        width: 50%;
         margin-top: 30px;
     }
 
     .hr-about {
-        width: 100%;
+        margin-top: 20px;
     }
 
     .hr-home-about {
@@ -654,11 +655,7 @@ button {
         display: none;
     }
 
-    .container {
-        width: 100%;
-    }
-
-    .container img {
+    .container, .container img {
         width: 100%;
     }
 }
@@ -798,41 +795,40 @@ button {
 @media (min-width:720px) and (max-width: 1024px) {
     .container-price {
         flex-direction: row;
-        text-align: center;
     }
 
-    .container-price img:nth-child(1),
     .container-price-outhers img:nth-child(1) {
-        padding: 0px;
-        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .tractor img:nth-child(1) {
+        padding: 50px;
+    }
+
+    .truck img:nth-child(1) {
+        padding: 60px;
     }
 
     .container-price-outhers {
         flex-direction: column;
+    }
+
+    .texts p {
         text-align: center;
     }
 
-    .image-price,
     .image-outhers {
         width: 100%;
         margin-bottom: 10px;
     }
 
-    .details,
+    .details, .image-price {
+        width: 45%;
+    }
+
     .texts {
         width: 100%;
         padding: 0px;
-    }
-
-    .details-text,
-    .texts {
-        flex-direction: row;
-        font-size: 9px !important;
-        justify-content: space-evenly;
-    }
-
-    .details-text span {
-        margin-top: 10px;
     }
 
     .barras {
@@ -884,8 +880,6 @@ button {
     .barras {
         display: none;
     }
-
-
 }
 
 @media(max-width:480px) {
@@ -910,7 +904,6 @@ button {
 
 .loc {
     display: flex;
-    width: 800px;
     justify-content: space-around;
     margin-top: 27px;
 }
@@ -920,8 +913,9 @@ button {
 }
 
 .title-operactions {
-    display: flex;
-    justify-content: center;
+    width: 85%;
+    margin: auto;
+    text-align: center;
     font-size: 40px;
     margin-top: 125px;
 }
@@ -933,19 +927,10 @@ button {
 
     .loc {
         flex-direction: column;
-        width: 100%;
-        margin-top: 0px;
-    }
-
-    .loc img:nth-child(2) {
-        margin-top: 0px;
-    }
-
-    .title-operactions {
-        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
     }
 }
-
 
 /***********************AGENDAMENTO*****************************/
 
@@ -998,25 +983,38 @@ button {
 
 @media(max-width: 1000px) {
     .scheduling {
-        flex-direction: column;
         align-items: center;
+        margin-top: -100px;
+        flex-direction: column;
     }
 
     .scheduling-text {
         width: 100%;
-        margin-top: 50px;
+        align-items: center;
     }
 
     .scheduling-img {
         width: 100%;
-        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .h1-scheduling {
+        text-align: center;
+    }
+
+    .scheduling-text p {
+        margin-top: 15px;
+        font-size: 20px;
+        text-align: center;
     }
 
     .scheduling-img img {
-        width: 56%;
+        width: 400px;
     }
 }
-
 
 /***********************CONTACT*****************************/
 
@@ -1101,7 +1099,6 @@ legend {
     }
 }
 
-
 /***********************FOOTER*****************************/
 
 footer {
@@ -1176,19 +1173,9 @@ footer:nth-child(1) {
     }
 
     footer section {
-        padding: 0 20px;
-    }
-
-    footer .lava-jato {
-        margin-top: 20px;
-    }
-
-    footer .equipe {
-        margin-top: 20px;
+        padding: 0 50px 40px 50px;
     }
 }
-
-
 
 /***********************ajustes*****************************/
 
@@ -1236,9 +1223,6 @@ footer:nth-child(1) {
         width: 100%;
     }
     
-
-
-
     .scheduling {
     margin-left: 40px;
     }
@@ -1323,17 +1307,17 @@ footer:nth-child(1) {
 
     .contact-piva .number-piva img {
         width: 30px;
-}
+    }
 
-.img-piva img {
-    width: 150px;
-    padding: 20px;
-    margin-right: 20px
-}
+    .img-piva img {
+        width: 150px;
+        padding: 20px;
+        margin-right: 20px
+    }
 
-footer {
-    width: 100%;
-    font-size: 10px;
-}
+    footer {
+        width: 100%;
+        font-size: 10px;
+    }
 
 }
