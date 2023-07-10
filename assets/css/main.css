@@ -366,7 +366,7 @@ li {
         display: none;
     }
 
-    .icon-menu i {
+    .icon-menu img {
         display: block;
     }
 
@@ -387,7 +387,7 @@ li {
 
 @media(min-width: 600px) {
     .container-header button {
-        margin-right: 8px;
+        margin-right: 100px;
     }
 }
 
