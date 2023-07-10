@@ -26,11 +26,7 @@ body {
 
 }
 
-
-
 /***********************HEADER*****************************/
-
-
 
 header {
     width: 100%;
@@ -47,16 +43,6 @@ header .logo img {
     top: -16px;
     left: 10px;
     z-index: 1000;
-}
-
-header nav .logo {
-    color: #fff;
-    font-size: 2.5rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    z-index: 1000;
-    margin-top: 20px;
 }
 
 #seta {
@@ -305,7 +291,7 @@ li {
     right: 1px;
     top: 50px;
     background: #000000e0;
-    width: 100%;
+    width: 38%;
     display: flex;
     justify-content: center;
     transform: translateX(1000%);
@@ -324,9 +310,9 @@ li {
 .container-menu-lateral ul li {
     color: #fff;
     list-style: none;
-    padding: 10px;
-    width: 150%;
     border-bottom: 1px solid rgb(227, 217, 217);
+    padding: 10px;
+    width: 100%;
     text-align: center;
 }
 
@@ -429,16 +415,13 @@ li {
     }
 }
 
-
-
-
 /* ------------------- HOME ------------------- */
 
 .container-home {
-    width: 110%;
+    width: 85%;
+    margin: auto;
     display: flex;
-    justify-content: center;
-    margin: 0 0 0 20px;
+    justify-content: space-between;
     align-items: center;
     margin-top: -50px;
 }
@@ -529,8 +512,6 @@ button {
     }
 
 }
-
-
 
 /***********************ABOUT*****************************/
 
@@ -624,7 +605,6 @@ button {
         width: 100%;
     }
 }
-
 
 /***********************DESTAQUES*****************************/
 
@@ -825,7 +805,6 @@ button {
     .container-price-outhers img:nth-child(1) {
         padding: 0px;
         margin-top: 30px;
-        width: 217px;
     }
 
     .container-price-outhers {
@@ -848,6 +827,8 @@ button {
     .details-text,
     .texts {
         flex-direction: row;
+        font-size: 9px !important;
+        justify-content: space-evenly;
     }
 
     .details-text span {
@@ -893,6 +874,7 @@ button {
     .texts {
         flex-direction: row;
         font-size: 9px !important;
+        justify-content: space-evenly;
     }
 
     .details-text span {
@@ -912,7 +894,8 @@ button {
     }
 
     .container-price-outhers {
-        margin: auto;
+        margin-left: 70px;
+        margin-bottom: 20px;
     }
 }
 
@@ -1104,11 +1087,13 @@ legend {
     }
 
     .cotainer-piva {
+        flex-direction: column;
         margin-bottom: 20px;
     }
 
     .contact-piva {
-        margin-left: 0px;
+        width: 100%;
+        margin-top: 30px;
     }
 
     .contact-piva hr {
@@ -1207,14 +1192,6 @@ footer:nth-child(1) {
 
 /***********************ajustes*****************************/
 
-@media(min-width:480px) {
-    .img-piva img{
-
-width: 90%;
-
-}
-}
-
 @media (max-width: 480px) {
     .container {
         width: 100%;
@@ -1253,7 +1230,6 @@ width: 90%;
 
     .container-price {
         width: 100%;
-        margin: auto;
     }
 
     .container-price .price {
@@ -1286,6 +1262,7 @@ width: 90%;
     }
 
     .cotainer-piva {
+        flex-direction: column;
         margin-bottom: 20px;
     }
 
@@ -1341,7 +1318,7 @@ width: 90%;
     }
 
     .contact-piva .number-piva {
-        width: 100px;
+        width: 100%;
     }
 
     .contact-piva .number-piva img {
