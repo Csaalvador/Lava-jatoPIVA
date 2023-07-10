@@ -99,8 +99,7 @@ header .logo img {
     transition: ease-in-out 0.2s;
 }
 
-.icon-menu i {
-    display: none;
+.icon-menu img {
     cursor: pointer;
     width: 30px;
     height: 30px;
