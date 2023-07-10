@@ -929,7 +929,7 @@ button {
     display: flex;
     width: 800px;
     justify-content: space-around;
-    margin-top: -63px;
+    margin-top: 27px;
 }
 
 .loc img:nth-child(2) {
@@ -1030,7 +1030,7 @@ button {
     }
 
     .scheduling-img img {
-        width: 100%;
+        width: 56%;
     }
 }
 
