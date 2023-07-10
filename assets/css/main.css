@@ -639,7 +639,7 @@ button {
 
 .carrossel {
     box-shadow: 2px 2px 4px black;
-    width: 80%;
+    width: 56%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
