@@ -366,9 +366,11 @@ li {
         display: none;
     }
 
-    .icon-menu img {
+    .icon-menu img{
         display: block;
     }
+
+
 
     .icon-menu:hover {
         animation: rotate 2s infinite;
