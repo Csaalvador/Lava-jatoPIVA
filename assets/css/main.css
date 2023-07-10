@@ -909,6 +909,12 @@ button {
 
 }
 
+@media(max-width:480px) {
+    .container-price, .container-price-outhers {
+        margin-left: 50px;
+    }
+}
+
 /***********************FUNCIONAMENTO*****************************/
 
 .container-operaction {
