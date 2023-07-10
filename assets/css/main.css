@@ -367,6 +367,7 @@ li {
 
     .icon-menu img{
         display: block;
+        right: 50px;
     }
 
 
@@ -508,7 +509,7 @@ button {
     }
 
     .container-home .text button {
-        width: 21%;
+        width: 44%;
         height: 40px;
         font-size: 15px;
     }
@@ -583,7 +584,9 @@ button {
 
     .title-about {
         width: 100%;
+        margin: 10;
         place-content: center;
+        margin-top: 72px;
     }
 
     .text-about {
@@ -606,6 +609,7 @@ button {
 
     .hr-home-about {
         width: 100%;
+        margin-top: 85px;
     }
 }
 
@@ -1279,6 +1283,9 @@ footer:nth-child(1) {
 
 @media (max-width: 480px) {
 
+    .container-home img{
+        display: none;
+    }
     .loc .img2 img{
         width: 100%;
     }
