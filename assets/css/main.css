@@ -913,6 +913,11 @@ button {
     .container-price, .container-price-outhers {
         margin-left: 50px;
     }
+
+    .container-price-outhers {
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
 }
 
 /***********************FUNCIONAMENTO*****************************/
