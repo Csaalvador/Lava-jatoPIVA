@@ -530,11 +530,7 @@ button {
 
 }
 
-@media(max-width:600px){
-    html {
-        zoom: 0.8;
-    }
-} 
+
 
 /***********************ABOUT*****************************/
 
@@ -1312,15 +1308,15 @@ footer:nth-child(1) {
 @media (max-width: 480px) {
 
     .loc .img2 img{
-        width: 110%;
+        width: 100%;
     }
 
     .loc .img1 img {
-        width: 110%;
+        width: 80%;
     }
 
     .contact-piva {
-        width: 100%;
+        width: 80%;
     }
 
     .contact-piva h2 {
