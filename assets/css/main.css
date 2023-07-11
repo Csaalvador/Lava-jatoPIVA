@@ -921,7 +921,7 @@ button {
 /***********************FUNCIONAMENTO*****************************/
 
 .container-operaction {
-    width: 85%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
