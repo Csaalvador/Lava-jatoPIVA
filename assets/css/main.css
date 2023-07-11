@@ -1069,6 +1069,7 @@ button {
     }
 
     .scheduling-text p {
+        /* margin-top: 144px; */
         width: auto;
     }
 }    
@@ -1306,7 +1307,7 @@ footer:nth-child(1) {
     }
 
     .scheduling-text {
-        margin-top: 0px;
+        margin-top: 165px;
     }
 
     .scheduling-img {
