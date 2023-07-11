@@ -22,7 +22,7 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-
+    background-color: #f7fbff;
 }
 
 /***********************HEADER*****************************/
@@ -38,9 +38,10 @@ header {
 
 header .logo img {
     width: 100px;
-    top: -16px;
+    top: 5px;
     left: 10px;
     z-index: 1000;
+    position: relative;
 }
 
 #seta {
@@ -579,9 +580,8 @@ button {
 
     .title-about {
         width: 100%;
-        margin: 10;
         place-content: center;
-        margin-top: 72px;
+        margin-top: 40px;
     }
 
     .text-about {
@@ -595,7 +595,7 @@ button {
 
     .img-about {
         width: 50%;
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .hr-about {
@@ -1244,8 +1244,33 @@ footer:nth-child(1) {
 /***********************ajustes*****************************/
 
 @media(max-width:930px) {
+    
+    .h1-price {
+        margin-top: 30px;
+    }
+
+    .title-about {
+        margin-top: 40px;
+    }
+
     .carrosel-container , #destaque{
         display: none;
+    }
+
+    .scheduling {
+        margin-top: -200px;
+    }
+
+    .title-operactions {
+        margin-top: 70px;
+    }
+
+    .cotainer-piva {
+        margin-top: -50px;
+    }
+
+    footer {
+        margin-top: 50px;
     }
 }
 
