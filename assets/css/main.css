@@ -610,7 +610,7 @@ button {
 
 /***********************DESTAQUES*****************************/
 
-/* .carrossel-container {
+.carrossel-container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -648,7 +648,7 @@ button {
 .carrossel h2 {
     text-align: center;
     text-transform: uppercase;
-} */
+} 
 
 @media (max-width: 720px) {
     .carrossel {
