@@ -648,7 +648,7 @@ button {
 .carrossel h2 {
     text-align: center;
     text-transform: uppercase;
-} 
+}
 
 @media (max-width: 720px) {
     .carrossel {
@@ -867,7 +867,7 @@ button {
     .container-price img:nth-child(1),
     .container-price-outhers img:nth-child(1) {
         /* padding: 0px; */
-        width: 75%;
+        width: 57%;
     }
 
     .container-price-outhers {
@@ -1411,7 +1411,7 @@ footer:nth-child(1) {
 
     .details-text {
         flex-direction: column;
-        letter-spacing: 1px;
+        letter-spacing: inherit;
     }
 
     .details-text span {
