@@ -38,9 +38,10 @@ header {
 
 header .logo img {
     width: 100px;
-    top: -16px;
+    top: -46px;
     left: 10px;
     z-index: 1000;
+    position: absolute;
 }
 
 #seta {
@@ -158,6 +159,7 @@ li {
 
 .container-header button {
     margin: 1px;
+    font-weight: bolder;
 }
 
 .submenu h2 {
@@ -326,8 +328,8 @@ li {
     padding: 10px;
     border-radius: 20px;
     border: none;
-    margin-bottom: 10px;
     color: #fff;
+    font-weight: bolder;
     margin-top: 10px;
     cursor: pointer;
     margin-bottom: 30px;
