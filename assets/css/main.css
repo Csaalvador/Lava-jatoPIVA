@@ -38,7 +38,6 @@ header {
 
 header .logo img {
     width: 100px;
-    height: 100px;
     top: -16px;
     left: 10px;
     z-index: 1000;
@@ -916,6 +915,10 @@ button {
     .container-price-outhers .texts {
         width: auto;
     }
+
+    .h1-price {
+        margin-top: 0px;
+    }
 }
 
 /***********************FUNCIONAMENTO*****************************/
@@ -1060,6 +1063,10 @@ button {
 @media(max-width: 480px) {
     .scheduling {
         margin-top: 0px;
+    }
+
+    .scheduling-text p {
+        width: auto;
     }
 }    
 
@@ -1255,8 +1262,9 @@ footer:nth-child(1) {
     }
 
    .title-operactions {
+        width: 100%;
         margin-top: 50px;
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .container-operaction .title-operactions p {
@@ -1291,6 +1299,10 @@ footer:nth-child(1) {
 
 @media (max-width: 480px) {
 
+    .h1-scheduling {
+        font-size: 32px;
+    }
+
     .container-home img{
         display: none;
     }
@@ -1300,7 +1312,7 @@ footer:nth-child(1) {
         font-size: 25px;
     }
 
-    .contact-piva h2, strong {
+    .contact-piva h2 {
         font-size: 32px;
     }
 
@@ -1315,7 +1327,31 @@ footer:nth-child(1) {
 
     footer {
         width: 100%;
-        font-size: 8px;
+    }
+
+    footer .lava-jato h2, footer .equipe h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 470px) {
+    .lava-jato nav ul, .equipe nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    footer .footer-visual {
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    footer .footer-all {
+        margin-bottom: 20px;
     }
 }
 
@@ -1324,12 +1360,40 @@ footer:nth-child(1) {
     .number-piva img {
         display: none;
     }
+
+    .details {
+        width: 100%;
+    }
 }
 
 @media (max-width: 459px) {
 
     .container-home .text h1 {
         width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .details-text {
+        flex-direction: column;
+        letter-spacing: 1px;
+    }
+
+    .details-text span {
+       font-weight: normal;
+    }
+
+    .img2 img {
+        width: 300px;
+    }
+
+    .scheduling-img img {
+        width: 300px;
+    }
+
+    .container-contact {
+        width: auto;
     }
 }
 
