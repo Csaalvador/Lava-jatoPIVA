@@ -46,8 +46,8 @@ header .logo img {
 }
 
 #seta {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
 }
 
 .menu-list {
@@ -105,8 +105,6 @@ header .logo img {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 20px;
-    right: 5%;
     color: #fff;
     z-index: 1000;
 }
@@ -368,9 +366,8 @@ li {
     .icon-menu img{
         display: block;
         right: 50px;
+        top: 15px;
     }
-
-
 
     .icon-menu:hover {
         animation: rotate 2s infinite;
@@ -411,10 +408,6 @@ li {
         display: none;
     }
 
-
-    .carrossel, h2.h2{
-        display: none;
-    }
 }
 
 /* ------------------- HOME ------------------- */
@@ -490,22 +483,26 @@ button {
     }
 
     .container-home .text {
-        width: 80%;
+        width: 100%;
         margin-top: 150px;
+        align-items: center;
     }
 
     .container-home .text h1 {
         font-size: 40px;
-        place-self: center;
+        text-align: center;
+        margin-top: 0px;
     }
 
     .container-home .text p {
         font-size: 15px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
     }
 
     .container-home img {
-        margin-top: 0px;
-        width: 80%;
+        margin-top: 30px;
     }
 
     .container-home .text button {
@@ -590,7 +587,7 @@ button {
     }
 
     .text-about {
-        width: 80%;
+        width: 85%;
         text-align: center;
     }
 
@@ -608,8 +605,8 @@ button {
     }
 
     .hr-home-about {
-        width: 100%;
-        margin-top: 85px;
+        width: 85%;
+        margin: auto;
     }
 }
 
@@ -657,8 +654,9 @@ button {
 
 @media (max-width: 720px) {
     .carrossel {
-        width: 100%;
-        display: none;
+        width: 85%;
+        margin: auto;
+        margin-top: 30px;
     }
 
     .container, .container img {
@@ -798,7 +796,7 @@ button {
     flex-direction: row-reverse;
 }
 
-@media (min-width:720px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .container-price {
         flex-direction: row;
     }
@@ -830,6 +828,7 @@ button {
 
     .details, .image-price {
         width: 45%;
+        padding-right: 0px;
     }
 
     .texts {
@@ -842,6 +841,25 @@ button {
     }
 }
 
+@media (max-width:800px) {
+    .container-price {
+        justify-content: space-between;
+    }
+
+    .image-price {
+        width: 50%;
+    }
+
+    .details {
+        width: 45%;
+        padding-right: 0px;
+    }
+
+    .container-price img:nth-child(1) {
+        padding: 50px;
+    }
+}
+
 @media (max-width:720px) {
     .container-price {
         flex-direction: column;
@@ -851,8 +869,7 @@ button {
     .container-price img:nth-child(1),
     .container-price-outhers img:nth-child(1) {
         /* padding: 0px; */
-        margin-top: 30px;
-        width: 285px;
+        width: 350px;
     }
 
     .container-price-outhers {
@@ -868,19 +885,12 @@ button {
 
     .details,
     .texts {
-        width: 100%;
+        width: 60%;
         padding: 0px;
     }
 
-    .details-text,
-    .texts {
-        flex-direction: row;
-        font-size: 9px !important;
-        justify-content: space-evenly;
-    }
-
-    .details-text span {
-        margin-top: 10px;
+    .texts p {
+        text-align: center;
     }
 
     .barras {
@@ -888,14 +898,24 @@ button {
     }
 }
 
-@media(max-width:480px) {
-    .container-price, .container-price-outhers {
-        margin-left: 50px;
+@media (max-width: 567px) {
+    .details {
+        width: 75%;
     }
+    .details-text {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:480px) {
 
     .container-price-outhers {
-        margin-left: 70px;
         margin-bottom: 20px;
+    }
+
+    .container-price-outhers .texts {
+        width: auto;
     }
 }
 
@@ -935,6 +955,10 @@ button {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .loc .img1 {
+        margin-bottom: 30px;
     }
 }
 
@@ -992,6 +1016,7 @@ button {
         align-items: center;
         margin-top: -100px;
         flex-direction: column;
+        margin-top: -150px;
     }
 
     .scheduling-text {
@@ -1020,7 +1045,21 @@ button {
     .scheduling-img img {
         width: 400px;
     }
+
+    .scheduling-text button {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 150px;
+        height: 50px;
+        font-size: 17px;
+    }
 }
+
+@media(max-width: 480px) {
+    .scheduling {
+        margin-top: 0px;
+    }
+}    
 
 /***********************CONTACT*****************************/
 
@@ -1044,6 +1083,10 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.img-piva legend {
+    font-size: 20px;
 }
 
 .number-piva {
@@ -1186,28 +1229,25 @@ footer:nth-child(1) {
 /***********************ajustes*****************************/
 
 @media (max-width: 480px) {
-    .container {
-        width: 100%;
+
+    .hr-home-about {
+        margin-top: 50px;
+    }
+
+    .details {
+        width: 80%;
     }
 
     .container-operaction {
-        width: 100%;
-        place-items: center;
+        width: 85%;
     }
 
-    .container-operaction .loc {
-        width: 50%;
+    .h2-price, .title-about h2 {
+        font-size: 30px;
     }
 
-    .container-operaction .loc img:nth-child(2) {
-        width: 100%;
-    }
-
-    .container-operaction .title-operactions {
-        width: 100%;
-    }
-
-    .container-operaction .title-operactions h2 {
+   .title-operactions {
+        margin-top: 50px;
         font-size: 30px;
     }
 
@@ -1215,49 +1255,13 @@ footer:nth-child(1) {
         font-size: 15px;
     }
 
-    .container-operaction .title-operactions button {
-        width: 100px;
-        height: 40px;
-        font-size: 15px;
-    }
-
-    .container-price {
-        width: 100%;
-    }
-
-    .container-price .price {
-        width: 100%;
-    }
-    
-    .scheduling {
-    margin-left: 40px;
-    }
-
     .scheduling-text {
-        width: 100%;
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     .scheduling-img {
         width: 100%;
         margin-top: 50px;
-    }
-
-    .scheduling-img img {
-        width: 100%;
-    }
-
-    .container-contact {
-        flex-direction: column;
-    }
-
-    .cotainer-piva {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-
-    .contact-piva {
-        margin-left: 0px;
     }
 
     .contact-piva hr {
@@ -1272,11 +1276,7 @@ footer:nth-child(1) {
         padding: 0 20px;
     }
 
-    footer .lava-jato {
-        margin-top: 20px;
-    }
-
-    footer .equipe {
+    footer .lava-jato, footer .equipe {
         margin-top: 20px;
     }
 }
@@ -1286,47 +1286,41 @@ footer:nth-child(1) {
     .container-home img{
         display: none;
     }
-    .loc .img2 img{
-        width: 100%;
+
+    .img-piva legend {
+        margin-top: 15px;
+        font-size: 25px;
     }
 
-    .loc .img1 img {
-        width: 80%;
-    }
-
-    .contact-piva {
-        width: 80%;
-    }
-
-    .contact-piva h2 {
-        font-size: 30px;
+    .contact-piva h2, strong {
+        font-size: 32px;
     }
 
     .contact-piva h3 {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .contact-piva hr {
-        width: 100%;
-    }
-
-    .contact-piva .number-piva {
-        width: 100%;
-    }
-
-    .contact-piva .number-piva img {
-        width: 30px;
-    }
-
-    .img-piva img {
-        width: 150px;
-        padding: 20px;
-        margin-right: 20px
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     footer {
         width: 100%;
         font-size: 10px;
     }
+}
 
+@media (max-width: 459px) {
+
+    .number-piva img {
+        display: none;
+    }
+}
+
+@media (max-width: 459px) {
+
+    .container-home .text h1 {
+        width: 100%;
+    }
 }
