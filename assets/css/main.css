@@ -82,7 +82,7 @@ header .logo img {
     display: inline-block;
     top: 20px;
     margin-left: 8px;
-    background: #1186e7;
+    background: #0F37C7;
     padding: 10px;
     border-radius: 20px;
     border: none;
@@ -1409,4 +1409,4 @@ footer:nth-child(1) {
     footer {
         font-size: 10px;
     }
-}
+}]
