@@ -128,9 +128,10 @@ li {
 .container-header:hover .submenu {
     display: block;
 }
-    html {
-        overflow-x: hidden;
-    
+
+html {
+    overflow-x: hidden;
+
 }
 
 .submenu {
@@ -362,7 +363,7 @@ li {
         display: none;
     }
 
-    .icon-menu img{
+    .icon-menu img {
         display: block;
         right: 50px;
         top: 15px;
@@ -390,10 +391,10 @@ li {
 }
 
 @media(max-width: 700px) {
-    html{
+    html {
         overflow-x: hidden;
     }
-   
+
     .container-header button {
         margin-right: 8px;
     }
@@ -402,13 +403,13 @@ li {
         display: none;
     }
 
-    .about img{
+    .about img {
         margin-bottom: -100px;
         display: none;
     }
 
     #price {
-        margin-top: -20px;
+        margin-top: -35px;
     }
 }
 
@@ -660,7 +661,8 @@ button {
         margin-top: 30px;
     }
 
-    .container, .container img {
+    .container,
+    .container img {
         width: 100%;
     }
 }
@@ -827,7 +829,8 @@ button {
         margin-bottom: 10px;
     }
 
-    .details, .image-price {
+    .details,
+    .image-price {
         width: 45%;
         padding-right: 0px;
     }
@@ -903,6 +906,7 @@ button {
     .details {
         width: 75%;
     }
+
     .details-text {
         width: 100%;
         justify-content: space-between;
@@ -1076,7 +1080,7 @@ button {
         /* margin-top: 144px; */
         width: auto;
     }
-}    
+}
 
 /***********************CONTACT*****************************/
 
@@ -1087,7 +1091,7 @@ button {
     margin-top: 110px;
 }
 
-.cotainer-piva { 
+.cotainer-piva {
     width: 85%;
     margin: auto;
     display: flex;
@@ -1199,7 +1203,7 @@ footer .lava-jato h2 {
     margin-top: 25px;
 }
 
-footer .lava-jato h2, 
+footer .lava-jato h2,
 footer .equipe h2 {
     margin-bottom: 15px
 }
@@ -1221,7 +1225,7 @@ footer .equipe .footer-all a {
     text-decoration: none;
 }
 
-footer .equipe .footer-all a:hover{
+footer .equipe .footer-all a:hover {
     border-bottom: 1px solid #fff;
 
 }
@@ -1249,10 +1253,10 @@ footer:nth-child(1) {
     }
 }
 
-/***********************ajustes*****************************/
+/***********************AJUSTES GERAIS*****************************/
 
 @media(max-width:930px) {
-    
+
     .h1-price {
         margin-top: 30px;
     }
@@ -1261,7 +1265,8 @@ footer:nth-child(1) {
         margin-top: 40px;
     }
 
-    .carrosel-container , #destaque{
+    .carrosel-container,
+    #destaque {
         display: none;
     }
 
@@ -1289,18 +1294,19 @@ footer:nth-child(1) {
     }
 
     .details {
-        width: 80%;
+        width: 85%;
     }
 
     .container-operaction {
         width: 85%;
     }
 
-    .h2-price, .title-about h2 {
+    .h2-price,
+    .title-about h2 {
         font-size: 30px;
     }
 
-   .title-operactions {
+    .title-operactions {
         width: 100%;
         margin-top: 50px;
         font-size: 32px;
@@ -1331,7 +1337,8 @@ footer:nth-child(1) {
         padding: 0 20px;
     }
 
-    footer .lava-jato, footer .equipe {
+    footer .lava-jato,
+    footer .equipe {
         margin-top: 20px;
     }
 }
@@ -1342,7 +1349,7 @@ footer:nth-child(1) {
         font-size: 32px;
     }
 
-    .container-home img{
+    .container-home img {
         display: none;
     }
 
@@ -1368,14 +1375,17 @@ footer:nth-child(1) {
         width: 100%;
     }
 
-    footer .lava-jato h2, footer .equipe h2 {
+    footer .lava-jato h2,
+    footer .equipe h2 {
         text-align: center;
         margin-bottom: 20px;
     }
 }
 
 @media (max-width: 470px) {
-    .lava-jato nav ul, .equipe nav ul {
+
+    .lava-jato nav ul,
+    .equipe nav ul {
         flex-direction: column;
         align-items: center;
     }
@@ -1399,10 +1409,6 @@ footer:nth-child(1) {
     .number-piva img {
         display: none;
     }
-
-    .details {
-        width: 100%;
-    }
 }
 
 @media (max-width: 459px) {
@@ -1415,12 +1421,12 @@ footer:nth-child(1) {
 @media (max-width: 420px) {
 
     .details-text {
+        line-height: 40px;
         flex-direction: column;
-        letter-spacing: inherit;
     }
 
     .details-text span {
-       font-weight: normal;
+        font-weight: normal;
     }
 
     .img2 img {
@@ -1436,7 +1442,7 @@ footer:nth-child(1) {
     }
 }
 
-@media(min-width: 480px) and (max-width:680px){
+@media(min-width: 480px) and (max-width:680px) {
     footer {
         font-size: 10px;
     }
