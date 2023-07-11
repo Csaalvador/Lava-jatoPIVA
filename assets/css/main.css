@@ -1324,3 +1324,9 @@ footer:nth-child(1) {
         width: 100%;
     }
 }
+
+@media(min-width: 480px) and (max-width:680px){
+    footer {
+        font-size: 10px;
+    }
+}
