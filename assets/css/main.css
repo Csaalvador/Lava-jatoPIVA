@@ -407,6 +407,9 @@ li {
         display: none;
     }
 
+    #price {
+        margin-top: -20px;
+    }
 }
 
 /* ------------------- HOME ------------------- */
@@ -966,6 +969,7 @@ button {
     }
 
     .loc .img1 {
+        margin-right: 0px;
         margin-bottom: 30px;
     }
 }
