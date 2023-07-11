@@ -868,7 +868,7 @@ button {
     .container-price img:nth-child(1),
     .container-price-outhers img:nth-child(1) {
         /* padding: 0px; */
-        width: 350px;
+        width: 100%;
     }
 
     .container-price-outhers {
@@ -933,9 +933,12 @@ button {
     margin-top: 27px;
 }
 
-.loc img:nth-child(2) {
-    margin-top: 200px;
+.loc iframe {
+    width: 200px;
+    height: 200px;
 }
+
+
 
 .title-operactions {
     width: 85%;
