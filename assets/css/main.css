@@ -1230,6 +1230,12 @@ footer:nth-child(1) {
 
 /***********************ajustes*****************************/
 
+@media(max-width:930px) {
+    .carrosel-container , #destaque{
+        display: none;
+    }
+}
+
 @media (max-width: 480px) {
 
     .hr-home-about {

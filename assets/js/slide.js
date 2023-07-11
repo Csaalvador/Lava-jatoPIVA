@@ -10,7 +10,7 @@ function run() {
         idx = 0
     }
 
-    imgs.style.transform = `translateX(${-idx * 745}px)`
+    imgs.style.transform = `translateX(${-idx * 705}px)`
 
 }
 
