@@ -1209,7 +1209,13 @@ footer .footer-visual {
 }
 
 footer .equipe .footer-all a {
+    color: #fff;
     text-decoration: none;
+}
+
+footer .equipe .footer-all a:hover{
+    border-bottom: 1px solid #fff;
+
 }
 
 footer .equipe .footer-visual li,
