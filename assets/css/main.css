@@ -326,31 +326,14 @@ html {
 .container-menu-lateral ul li button {
     background: #1186e7;
     padding: 10px;
+    width: 100px;
     border-radius: 20px;
     border: none;
-    margin-bottom: 10px;
     color: #fff;
     margin-top: 10px;
     cursor: pointer;
     margin-bottom: 30px;
     text-align: center;
-    animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-
 }
 
 .container-menu-lateral.active {
@@ -552,6 +535,7 @@ button {
 }
 
 .title-about {
+    margin-top: -10px;
     width: 45%;
     display: flex;
     align-items: center;
