@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +11,7 @@ body {
     width: 100vw;
     height: 100vh;
     opacity: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 main {
     display: flex;
@@ -55,7 +59,7 @@ main {
 }
 
 .form button:hover {
-    transform: scale(1.1);
+    transform: scale(0.99);
     background: #34a0ed;
 }
 
@@ -67,6 +71,28 @@ main {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
     opacity: 5%;
     
 }
+
+h5 {
+    position: absolute;
+    margin-top: -100px;
+    color: rgb(0, 153, 255);
+    
+}
+
+legend {
+    margin-top: -30px;
+    margin-left: 8px;
+    color: rgb(0, 153, 255);
+    cursor: pointer;
+}
+
+a {
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
