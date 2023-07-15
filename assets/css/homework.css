@@ -1,61 +1,91 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  }
-  body {
-    width: 100vw;
-    height: 100vh;
-  }
-  .cabecalho {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.cabecalho {
+  display: flex;
+  width: 100%;
+}
+.logo img {
+    position: absolute;
+  margin-left:50px;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+}
+.list-nav {
+  display: flex;
+  width: 90%;
+  justify-content: right;
+  place-items: center;
+  list-style: none;
+  margin: 38px 144px 0px;
+}
+
+.list-nav li {
+    margin-left: 20px;
+}
+.list-nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.hr-header {
+  width: 90%;
+  text-align: center;
+  margin-left: 45px;
+}
+
+
+.home-articles {
+    width: 40%;
+    margin: 125px 0 0 125px;
+    height: 301px;
+    background: #3C8FDB;
+    align-self: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-line;
+    border-radius: 25px;
+}
+
+
+.agendamento {
     width: 100%;
-  }
-  .logo img {
-      position: absolute;
-    margin-left:50px;
-  }
-  .navigation {
-    width: 100%;
-    display: flex;
-  }
-  .list-nav {
-    display: flex;
-    width: 90%;
-    justify-content: right;
-    place-items: center;
-    list-style: none;
-    margin: 38px 144px 0px;
-  }
-  
-  .list-nav li {
-      margin-left: 20px;
-  }
-  .list-nav a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-  }
-  .hr-header {
-    width: 90%;
+    background-color: aqua;
+}
+
+.agendar {
+
+text-align: center;
+
+color: #fff;
+
+margin-top: -24px;
+}
+
+.image {
     text-align: center;
-    margin-left: 45px;
-  }
+}
+
+.home-articles input {
+  width: 100%;
+  border-radius: 25px;
+  height: 30px;
+  border-color: rgb(255, 255, 255);
+  background: #3C8FDB;
+}
+
+.home-articles input::placeholder {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
   
-  
-  .home-articles {
-      width: 50%;
-      height: 301px;
-      background: #3C8FDB;
-      align-self: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      white-space: pre-line;
-  }
-  
-  
-  .agendamento {
-      width: 100%;
-      background-color: aqua;
-  }
