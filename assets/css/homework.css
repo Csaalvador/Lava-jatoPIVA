@@ -25,7 +25,7 @@ body {
   justify-content: right;
   place-items: center;
   list-style: none;
-  margin: 38px 144px 0px;
+  margin: 38px 200px 0px;
 }
 
 .list-nav li {
@@ -40,11 +40,12 @@ body {
   width: 90%;
   text-align: center;
   margin-left: 45px;
+  margin-top: 7px;
 }
 
 
 .home-articles {
-    width: 40%;
+    width: 30%;
     margin: 125px 0 0 125px;
     height: 301px;
     background: #3C8FDB;
@@ -59,15 +60,15 @@ body {
 
 .agendamento {
     width: 100%;
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    place-items: center;
 }
 
 .agendar {
-
 text-align: center;
-
 color: #fff;
-
 margin-top: -24px;
 }
 
@@ -76,16 +77,27 @@ margin-top: -24px;
 }
 
 .home-articles input {
-  width: 100%;
+  width: 181px;
   border-radius: 25px;
   height: 30px;
-  border-color: rgb(255, 255, 255);
   background: #3C8FDB;
+  outline: none;
+  border: 2px solid white;
+  height: 40px;
+  font-weight: 700;
 }
 
 .home-articles input::placeholder {
   text-align: center;
   color: white;
-  font-weight: bold;
-}
+  font-weight: lighter;}
   
+
+  .navigation ul li img {
+    
+position: absolute;
+    
+top: 20px;
+    
+right: 85px;
+  }
