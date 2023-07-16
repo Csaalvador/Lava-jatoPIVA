@@ -43,61 +43,41 @@ body {
   margin-top: 7px;
 }
 
-
-.home-articles {
-    width: 30%;
-    margin: 125px 0 0 125px;
-    height: 301px;
-    background: #3C8FDB;
-    align-self: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    white-space: pre-line;
-    border-radius: 25px;
+.agenda {
+  width: 30%;
+  height: 300px;
+  background-color: blue
 }
 
-
-.agendamento {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 56px;
-    place-items: center;
+.map {
+  width: 10%;
+  height: 100px;
+  background-color: rgb(255, 221, 0);
 }
 
-.agendar {
-text-align: center;
-color: #fff;
-margin-top: -24px;
+main {
+  display: flex;
 }
 
-.image {
-    text-align: center;
-}
-
-.home-articles input {
-  width: 181px;
-  border-radius: 25px;
-  height: 30px;
-  background: #3C8FDB;
-  outline: none;
-  border: 2px solid white;
-  height: 40px;
-  font-weight: 700;
-}
-
-.home-articles input::placeholder {
-  text-align: center;
-  color: white;
-  font-weight: lighter;}
+.dados {
   
+display: flex;
+  
+flex-direction: column;
+  
+align-items: center;
+  
+margin: 95px;
+}
 
-  .navigation ul li img {
-    
-position: absolute;
-    
-top: 20px;
-    
-right: 85px;
-  }
+.image img{
+
+}
+
+.text {
+
+}
+
+input {
+
+}
